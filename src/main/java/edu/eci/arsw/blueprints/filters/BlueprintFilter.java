@@ -5,12 +5,20 @@
  */
 package edu.eci.arsw.blueprints.filters;
 
+import edu.eci.arsw.blueprints.model.Blueprint;
+
 /**
  *
  * @author 2118677
  */
 public interface BlueprintFilter {
-
-    
+   
+    /**
+     * 
+     * @param blueprint
+     * @return 
+     */
+    public Blueprint filter(Blueprint blueprint);
 
 }
+
