@@ -33,8 +33,8 @@ public interface BlueprintsPersistence {
     
     /**
      * 
-     * @param author blueprint's author
-     * @retur all the blueprints of the given author
+     * @param author blueprint's author 
+     * @return all the blueprints of the given author
      * @throws BlueprintNotFoundException if the given author doesn't exist
      */
     public Set<Blueprint> getBlueprintsByAuthor(String author) throws BlueprintNotFoundException;
