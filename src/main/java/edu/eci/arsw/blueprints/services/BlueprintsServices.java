@@ -28,6 +28,7 @@ public class BlueprintsServices {
     
     public void addNewBlueprint(Blueprint bp) throws BlueprintPersistenceException{
         bpp.saveBlueprint(bpf.filter(bp));
+        //bpp.saveBlueprint(bp);
     }
     
     public Set<Blueprint> getAllBlueprints(){
